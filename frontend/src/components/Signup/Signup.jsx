@@ -31,15 +31,14 @@ const Signup = () => {
     newForm.append("password", password);
 
     axios
-      .post(`${server}/user/create-user`)
-      .then((response) => {
-        return response.data;
+
+      .post(`${server}/user/create-user`, newForm, config)
+      .then((res) => {
+        console.log(res);
       })
-      .then((data) => {
-        console.log(data);
-      })
-      .catch((error) => {
-        console.log(error.response.data.error);
+
+      .catch((err) => {
+        console.log(err.response.data);
       });
   };
 

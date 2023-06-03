@@ -6,7 +6,7 @@ const { upload } = require("../multer");
 const ErrorHandler = require("../utils/ErrorHandler");
 
 router.post("/create-user", upload.single("file"), async (req, res) => {
-  const { name, email, passwords } = req.body;
+  const { name, email, password } = req.body;
   const userEmail = await User.findOne({ email });
 
   if (userEmail) {
@@ -23,7 +23,11 @@ router.post("/create-user", upload.single("file"), async (req, res) => {
     avatar: fileUrl,
   };
 
-  console.log(user);
+  const newUser = await User.create(user);
+  res.status(201).json({
+    success: true,
+    newUser,
+  });
 });
 
 module.exports = router;
