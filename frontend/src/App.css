@@ -50,6 +50,18 @@ p {
   margin: 40px 0;
 }
 
+.buttton.normal {
+  font-size: 14px;
+  font-weight: 600;
+  padding: 15px;
+  color: #000;
+  background-color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
+  transition: 0.2s;
+}
+
 #header {
   display: flex !important;
   align-items: center !important;
@@ -92,12 +104,12 @@ p {
 #navbar li a.active::after,
 #navbar li a:hover::after {
   content: "";
-  width: 10%;
+  width: 7%;
   height: 2px;
   background: #088178;
   position: absolute;
   bottom: -4px;
-  left: 35px;
+  left: 46px;
 }
 
 #hero {
@@ -189,6 +201,13 @@ p {
   text-align: center;
 }
 
+#product1 .pro-container {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  flex-wrap: wrap;
+}
+
 #product1 .pro {
   position: relative;
   width: 23%;
@@ -260,6 +279,34 @@ p {
   position: absolute;
   bottom: 20px;
   right: 10px;
+}
+
+#banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-image: url("./styles/img/banner/b2.jpg");
+  width: 100%;
+  height: 40vh;
+  background-size: cover;
+  background-position: center;
+}
+
+#banner h4 {
+  color: #fff;
+  font-size: 16px;
+}
+
+#banner h2 {
+  color: #fff;
+  font-size: 16px;
+  padding: 10px 0;
+}
+
+#banner h2 span {
+  color: #ef3636;
 }
 
 .star svg {
