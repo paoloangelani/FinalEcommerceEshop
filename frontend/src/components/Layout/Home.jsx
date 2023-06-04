@@ -1,24 +1,16 @@
-import React, { useState } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
-import { productData } from "../../static/data";
-import { FaOpencart } from "react-icons/fa";
+import { FaShoppingCart } from "react-icons/fa";
+import { RxStar } from "react-icons/rx";
+import feat from "../../styles/img/features/f1.png";
+import feat1 from "../../styles/img/features/f2.png";
+import feat2 from "../../styles/img/features/f3.png";
+import feat3 from "../../styles/img/features/f4.png";
+import feat4 from "../../styles/img/features/f5.png";
+import feat5 from "../../styles/img/features/f6.png";
+import pro1 from "../../styles/img/products/f1.jpg";
 
 const Home = () => {
-  const [searchTerm, setSearchTerm] = useState("");
-  const [searchData, setSearchData] = useState(null);
-
-  const handleSearchChange = (e) => {
-    const term = e.target.value;
-    setSearchTerm(term);
-
-    const filteredProducts =
-      productData &&
-      productData.filter((product) =>
-        product.name.toLowerCase().includes(term.toLowerCase())
-      );
-    setSearchData(filteredProducts);
-  };
-
   return (
     <div>
       <section id="header">
@@ -39,7 +31,7 @@ const Home = () => {
               <Link to="../Layout/About.jsx">About</Link>
               <Link to="../Layout/Contact.jsx">Contact</Link>
               <Link to="../Layout/Cart.jsx">
-                <FaOpencart />
+                <FaShoppingCart />
               </Link>
             </li>
           </ul>
@@ -54,10 +46,277 @@ const Home = () => {
         <button>Shop Now</button>
       </section>
 
-      <section id="feature">
-        <div class="fe-box">
+      <section id="feature" className="section-p1">
+        <div className="fe-box">
           <img src={feat} alt="" />
           <h6>Free Shippin</h6>
+        </div>
+        <div className="fe-box">
+          <img src={feat1} alt="" />
+          <h6>Online Order</h6>
+        </div>
+        <div className="fe-box">
+          <img src={feat2} alt="" />
+          <h6>Save Money</h6>
+        </div>
+        <div className="fe-box">
+          <img src={feat3} alt="" />
+          <h6>Promotion</h6>
+        </div>
+        <div className="fe-box">
+          <img src={feat4} alt="" />
+          <h6>Happy Sell</h6>
+        </div>
+        <div className="fe-box">
+          <img src={feat5} alt="" />
+          <h6>Support</h6>
+        </div>
+      </section>
+
+      <section id="product1" className="section-p1">
+        <h2>Feautured Product</h2>
+        <p>Summer Collection New Modern Design</p>
+        <div className="pro-container">
+          <div className="pro">
+            <img src={pro1} alt="" />
+            <div className="des">
+              <span>Adidas</span>
+              <h5>Astronaut T-shirt</h5>
+              <div className="cart">
+                <i>
+                  <RxStar />
+                </i>
+                <i>
+                  <RxStar />
+                </i>
+                <i>
+                  <RxStar />
+                </i>
+                <i>
+                  <RxStar />
+                </i>
+                <i>
+                  <RxStar />
+                </i>
+              </div>
+              <h4>$78</h4>
+            </div>
+            <div className="cartLogo">
+              <a href="#">
+                <FaShoppingCart />
+              </a>
+            </div>
+          </div>
+          <div className="pro">
+            <img src={pro1} alt="" />
+            <div className="des">
+              <span>Adidas</span>
+              <h5>Astronaut T-shirt</h5>
+              <div className="cart">
+                <i>
+                  <RxStar />
+                </i>
+                <i>
+                  <RxStar />
+                </i>
+                <i>
+                  <RxStar />
+                </i>
+                <i>
+                  <RxStar />
+                </i>
+                <i>
+                  <RxStar />
+                </i>
+              </div>
+              <h4>$78</h4>
+            </div>
+            <div className="cartLogo">
+              <a href="#">
+                <FaShoppingCart />
+              </a>
+            </div>
+          </div>
+          <div className="pro">
+            <img src={pro1} alt="" />
+            <div className="des">
+              <span>Adidas</span>
+              <h5>Astronaut T-shirt</h5>
+              <div className="cart">
+                <i>
+                  <RxStar />
+                </i>
+                <i>
+                  <RxStar />
+                </i>
+                <i>
+                  <RxStar />
+                </i>
+                <i>
+                  <RxStar />
+                </i>
+                <i>
+                  <RxStar />
+                </i>
+              </div>
+              <h4>$78</h4>
+            </div>
+            <div className="cartLogo">
+              <a href="#">
+                <FaShoppingCart />
+              </a>
+            </div>
+          </div>
+          <div className="pro">
+            <img src={pro1} alt="" />
+            <div className="des">
+              <span>Adidas</span>
+              <h5>Astronaut T-shirt</h5>
+              <div className="cart">
+                <i>
+                  <RxStar />
+                </i>
+                <i>
+                  <RxStar />
+                </i>
+                <i>
+                  <RxStar />
+                </i>
+                <i>
+                  <RxStar />
+                </i>
+                <i>
+                  <RxStar />
+                </i>
+              </div>
+              <h4>$78</h4>
+            </div>
+            <div className="cartLogo">
+              <a href="#">
+                <FaShoppingCart />
+              </a>
+            </div>
+          </div>
+          <div className="pro">
+            <img src={pro1} alt="" />
+            <div className="des">
+              <span>Adidas</span>
+              <h5>Astronaut T-shirt</h5>
+              <div className="cart">
+                <i>
+                  <RxStar />
+                </i>
+                <i>
+                  <RxStar />
+                </i>
+                <i>
+                  <RxStar />
+                </i>
+                <i>
+                  <RxStar />
+                </i>
+                <i>
+                  <RxStar />
+                </i>
+              </div>
+              <h4>$78</h4>
+            </div>
+            <div className="cartLogo">
+              <a href="#">
+                <FaShoppingCart />
+              </a>
+            </div>
+          </div>
+          <div className="pro">
+            <img src={pro1} alt="" />
+            <div className="des">
+              <span>Adidas</span>
+              <h5>Astronaut T-shirt</h5>
+              <div className="cart">
+                <i>
+                  <RxStar />
+                </i>
+                <i>
+                  <RxStar />
+                </i>
+                <i>
+                  <RxStar />
+                </i>
+                <i>
+                  <RxStar />
+                </i>
+                <i>
+                  <RxStar />
+                </i>
+              </div>
+              <h4>$78</h4>
+            </div>
+            <div className="cartLogo">
+              <a href="#">
+                <FaShoppingCart />
+              </a>
+            </div>
+          </div>
+          <div className="pro">
+            <img src={pro1} alt="" />
+            <div className="des">
+              <span>Adidas</span>
+              <h5>Astronaut T-shirt</h5>
+              <div className="cart">
+                <i>
+                  <RxStar />
+                </i>
+                <i>
+                  <RxStar />
+                </i>
+                <i>
+                  <RxStar />
+                </i>
+                <i>
+                  <RxStar />
+                </i>
+                <i>
+                  <RxStar />
+                </i>
+              </div>
+              <h4>$78</h4>
+            </div>
+            <div className="cartLogo">
+              <a href="#">
+                <FaShoppingCart />
+              </a>
+            </div>
+          </div>
+          <div className="pro">
+            <img src={pro1} alt="" />
+            <div className="des">
+              <span>Adidas</span>
+              <h5>Astronaut T-shirt</h5>
+              <div className="cart">
+                <i>
+                  <RxStar />
+                </i>
+                <i>
+                  <RxStar />
+                </i>
+                <i>
+                  <RxStar />
+                </i>
+                <i>
+                  <RxStar />
+                </i>
+                <i>
+                  <RxStar />
+                </i>
+              </div>
+              <h4>$78</h4>
+            </div>
+            <div className="cartLogo">
+              <a href="#">
+                <FaShoppingCart />
+              </a>
+            </div>
+          </div>
         </div>
       </section>
     </div>

@@ -2,53 +2,48 @@
 @tailwind components;
 @tailwind utilities;
 
-
 /* fonts */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
-
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 body {
-    width: 100%;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+  width: 100%;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    background: #F6F6F5;
-    scroll-behavior: smooth;
-    
+  background: #f6f6f5;
+  scroll-behavior: smooth;
 }
 
-h1{
+h1 {
   font-size: 50px;
   line-height: 64px;
   color: #222;
 }
 
-h2{
+h2 {
   font-size: 46px;
   line-height: 54px;
   color: #222;
 }
 
-h4{
+h4 {
   font-size: 20px;
   color: #222;
-
 }
 
-h6{
+h6 {
   font-weight: 700;
   font-size: 12px;
 }
 
-p{
+p {
   font-size: 16px;
   color: #465b52;
   margin: 15px 0 20px 0;
 }
 
-.section-p1{
-padding: 40px 80px;
+.section-p1 {
+  padding: 40px 80px;
 }
 
 .section-m1 {
@@ -56,32 +51,28 @@ padding: 40px 80px;
 }
 
 #header {
-display: flex !important;
-align-items: center !important;
-justify-content: space-between !important;
-padding: 20px !important;
-background-color: #e3e6f3 !important;
-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
-z-index: 999;
-position: sticky;
-top: 0;
-left: 0;
-
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  padding: 20px !important;
+  background-color: #e3e6f3 !important;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+  z-index: 999;
+  position: sticky;
+  top: 0;
+  left: 0;
 }
 
-#navbar{
+#navbar {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-
 #navbar li {
-
   list-style: none !important;
-  padding:0 20px !important;
+  padding: 0 20px !important;
   position: relative;
-
 }
 
 #navbar li a {
@@ -90,16 +81,16 @@ left: 0;
   font-size: 16px;
   font-weight: 600;
   color: #1a1a1a;
-transition: 0.3s ease;
+  transition: 0.3s ease;
 }
 
 #navbar li a:hover,
 #navbar li a.active {
-color: #088178;
+  color: #088178;
 }
 
 #navbar li a.active::after,
-#navbar li a:hover::after{
+#navbar li a:hover::after {
   content: "";
   width: 10%;
   height: 2px;
@@ -109,9 +100,8 @@ color: #088178;
   left: 35px;
 }
 
-
 #hero {
-  background-image:url("../img/hero4.png"); 
+  background-image: url("../../frontend/src/styles/img/hero4.png");
   height: 90vh;
   width: 100%;
   background-size: cover;
@@ -119,20 +109,20 @@ color: #088178;
   padding: 0 80px;
   display: flex;
   flex-direction: column;
-  align-items: start;
+  align-items: flex-start;
   justify-content: center;
 }
 
-#hero h4{
+#hero h4 {
   padding-bottom: 15px;
 }
 
-#hero h1{
+#hero h1 {
   color: #088178;
 }
 
-#hero button{
-  background-image: url("../img/button.png");
+#hero button {
+  background-image: url("../../frontend/src/styles/img/button.png");
   background-color: transparent;
   color: #088178;
   border: 0;
@@ -141,15 +131,145 @@ color: #088178;
   cursor: pointer;
   font-weight: 700;
   font-size: 15px;
-
 }
 
+#feature {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
 
-input,select{
+#feature .fe-box {
+  width: 180px;
+  text-align: center;
+  padding: 25px 15px;
+  box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.3);
+  border: 2px solid #cce7d0;
+  border-radius: 4px;
+  margin: 15px 0;
+}
+
+#feature .fe-box:hover {
+  box-shadow: 20px 10px 54px rgba(70, 62, 221, 0.1);
+}
+
+#feature .fe-box img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+#feature .fe-box h6 {
+  display: inline-block;
+  padding: 9px 8px 6px 8px;
+  line-height: 1;
+  border-radius: 4px;
+  color: #088178;
+  background-color: #fddde4;
+}
+
+#feature .fe-box:nth-child(2) h6 {
+  background-color: #ccebbc;
+}
+
+#feature .fe-box:nth-child(3) h6 {
+  background-color: #d1e8f2;
+}
+#feature .fe-box:nth-child(4) h6 {
+  background-color: #cdd4f8;
+}
+#feature .fe-box:nth-child(5) h6 {
+  background-color: #f6dbf6;
+}
+#feature .fe-box:nth-child(6) h6 {
+  background-color: #fff2e5f7;
+}
+
+#product1 {
+  text-align: center;
+}
+
+#product1 .pro {
+  position: relative;
+  width: 23%;
+  min-width: 250px;
+  padding: 10px 12px;
+  border: 1px solid #cce7d0;
+  border-radius: 25px;
+  cursor: pointer;
+  box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
+  margin: 15px 0px;
+  transition: 0.2s ease;
+}
+
+#product1 .pro:hover {
+  box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.06);
+}
+
+#product1 .pro img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+#product1 .pro .des {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 10px 0px;
+}
+
+#product1 .pro .des span {
+  color: #606063;
+  font-size: 12px;
+}
+
+#product1 .pro .des h5 {
+  padding-top: 7px;
+  color: #1a1a1a;
+  font-size: 14px;
+}
+
+.cart {
+  display: flex;
+  justify-content: center;
+}
+
+#product1 .pro .des i {
+  font-size: 12px;
+  color: rgb(243, 181, 25);
+}
+
+#product1 .pro .des h4 {
+  padding-top: 7px;
+  font-size: 15px;
+  font-weight: 700;
+  color: #088178;
+}
+
+.cartLogo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 50px;
+  background-color: #e8f6ea;
+  color: #088178;
+  border: 1px solid #cce7d0;
+  position: absolute;
+  bottom: 20px;
+  right: 10px;
+}
+
+.star svg {
+  width: 25px;
+}
+
+input,
+select {
   outline: none;
 }
-
-
 
 /* Chrome, Safari, Edge, Opera */
 input::-webkit-outer-spin-button,
