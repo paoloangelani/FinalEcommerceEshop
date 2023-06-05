@@ -39,7 +39,7 @@ const Shop = () => {
               <Link className="active" to="/shop">
                 Shop
               </Link>
-              <Link to="../Layout/Blog.jsx">Blog</Link>
+              <Link to="/blog">Blog</Link>
               <Link to="../Layout/About.jsx">About</Link>
               <Link to="../Layout/Contact.jsx">Contact</Link>
               <Link to="../Layout/Cart.jsx">

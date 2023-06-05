@@ -7,6 +7,8 @@ import {
   HomePage,
   ShopPage,
   ProductPage,
+  BlogPage,
+  AboutPage,
 } from "./Routes.js";
 
 const App = () => {
@@ -19,6 +21,8 @@ const App = () => {
           <Route path="/sign-up" element={<SignupPage />} />
           <Route path="/shop" element={<ShopPage />} />
           <Route path="/product" element={<ProductPage />} />
+          <Route path="/blog" element={<BlogPage />} />
+          <Route path="/about" element={<AboutPage />} />
         </Routes>
       </BrowserRouter>
     </div>

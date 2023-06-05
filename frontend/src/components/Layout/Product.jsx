@@ -9,7 +9,7 @@ import pro1 from "../../styles/img/products/f1.jpg";
 import pro2 from "../../styles/img/products/f2.jpg";
 import pro3 from "../../styles/img/products/f3.jpg";
 import pro4 from "../../styles/img/products/f4.jpg";
-import pro5 from "../../styles/img/products/f5.jpg";
+
 import pro8 from "../../styles/img/products/n1.jpg";
 import pro9 from "../../styles/img/products/n2.jpg";
 import pro10 from "../../styles/img/products/n3.jpg";
