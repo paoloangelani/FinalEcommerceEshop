@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { FaShoppingCart } from "react-icons/fa";
 import { RxStar } from "react-icons/rx";
+
 import feat from "../../styles/img/features/f1.png";
 import feat1 from "../../styles/img/features/f2.png";
 import feat2 from "../../styles/img/features/f3.png";
@@ -23,6 +24,9 @@ import pro12 from "../../styles/img/products/n5.jpg";
 import pro13 from "../../styles/img/products/n6.jpg";
 import pro14 from "../../styles/img/products/n7.jpg";
 import pro15 from "../../styles/img/products/n8.jpg";
+import pay from "../../styles/img/pay/app.jpg";
+import pay2 from "../../styles/img/pay/play.jpg";
+import pay3 from "../../styles/img/pay/pay.png";
 const Home = () => {
   return (
     <div>
@@ -36,10 +40,10 @@ const Home = () => {
         <div>
           <ul id="navbar">
             <li>
-              <Link className="active" to="../Layout/Home.jsx">
+              <Link className="active" to="/">
                 Home
               </Link>
-              <Link to="../Layout/Shop.jsx">Shop</Link>
+              <Link to="/shop">Shop</Link>
               <Link to="../Layout/Blog.jsx">Blog</Link>
               <Link to="../Layout/About.jsx">About</Link>
               <Link to="../Layout/Contact.jsx">Contact</Link>
@@ -604,12 +608,92 @@ const Home = () => {
         </div>
       </section>
 
-      <section>
-        <div className="banner-box3">
+      <section id="banner3">
+        <div className="banner-box">
           <h2>SEASONALE SALE</h2>
           <h3>Winter Collection -50% OFF</h3>
         </div>
+        <div className="banner-box banner-box2">
+          <h2>NEW FOOTWEAR COLLECTION</h2>
+          <h3>Spring / Summer 2023</h3>
+        </div>
+        <div className="banner-box banner-box3">
+          <h2>T-SHIRT</h2>
+          <h3>New trendy prints</h3>
+        </div>
       </section>
+
+      <section id="newsLetter" className="section-p1 section-m1">
+        <div className="newstext">
+          <h4>Signup For Newsletters</h4>
+          <p>
+            Get e-mail updates about our latest shop and{" "}
+            <span>special offers.</span>{" "}
+          </p>
+        </div>
+        <div className="form">
+          <input type="text" placeholder="Your email address" />
+          <button className="normal">Signup</button>
+        </div>
+      </section>
+
+      <footer className="section-p1">
+        <div className="col">
+          <img
+            className="logoFooter"
+            src="https://shopo.quomodothemes.website/assets/images/logo.svg"
+            alt=""
+          />
+          <h4>Contact</h4>
+          <p>
+            <strong>Address:</strong>
+          </p>
+          <p>
+            <strong>Phone:</strong>
+          </p>
+
+          <p>
+            <strong>Hours:</strong>
+          </p>
+
+          <div className="follow">
+            <h4>Follow us</h4>
+            <div className="icon"></div>
+          </div>
+        </div>
+
+        <div className="col">
+          <h4>About</h4>
+          <a href=".">About us</a>
+          <a href=".">Delivery Information</a>
+          <a href=".">Privacy Policy</a>
+          <a href=".">Terms & Condition</a>
+          <a href=".">Contact us</a>
+        </div>
+
+        <div className="col">
+          <h4>My Account</h4>
+          <a href=".">Signin</a>
+          <a href=".">View Cart</a>
+          <a href=".">My WishList</a>
+          <a href=".">Track my order</a>
+          <a href=".">Help</a>
+        </div>
+
+        <div className="col install">
+          <h4>Install app</h4>
+          <p>From app store and google play</p>
+          <div className="row">
+            <img src={pay} alt="" />
+            <img src={pay2} alt="" />
+          </div>
+          <p>Secured Payment Gateways</p>
+          <img src={pay3} alt="" />
+        </div>
+        <div className="copyright">
+          <p>2023,Pollo etc - Html CSS JS Ecommerce template</p>
+        </div>
+      </footer>
     </div>
   );
 };

@@ -1,5 +1,5 @@
 import React from "react";
-import Shop from "../components/Layout/Shop";
+import Shop from "../components/Layout/Shop.jsx";
 
 const ShopPage = () => {
   return (
