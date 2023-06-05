@@ -32,8 +32,8 @@ const About = () => {
               <Link className="active" to="/about">
                 About
               </Link>
-              <Link to="../Layout/Contact.jsx">Contact</Link>
-              <Link to="../Layout/Cart.jsx">
+              <Link to="/contact">Contact</Link>
+              <Link to="/cart">
                 <FaShoppingCart />
               </Link>
             </li>

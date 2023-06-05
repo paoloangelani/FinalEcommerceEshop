@@ -28,9 +28,9 @@ const Blog = () => {
               <Link className="active" to="/blog">
                 Blog
               </Link>
-              <Link to="../Layout/About.jsx">About</Link>
-              <Link to="../Layout/Contact.jsx">Contact</Link>
-              <Link to="../Layout/Cart.jsx">
+              <Link to="/about">About</Link>
+              <Link to="/contact">Contact</Link>
+              <Link to="/cart">
                 <FaShoppingCart />
               </Link>
             </li>

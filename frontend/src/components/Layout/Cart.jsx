@@ -4,9 +4,6 @@ import { FaShoppingCart } from "react-icons/fa";
 import pay from "../../styles/img/pay/app.jpg";
 import pay2 from "../../styles/img/pay/play.jpg";
 import pay3 from "../../styles/img/pay/pay.png";
-import people1 from "../../styles/img/people/1.png";
-import people2 from "../../styles/img/people/2.png";
-import people3 from "../../styles/img/people/3.png";
 
 const About = () => {
   return (
@@ -25,10 +22,8 @@ const About = () => {
               <Link to="/shop">Shop</Link>
               <Link to="/blog">Blog</Link>
               <Link to="/about">About</Link>
-              <Link className="active" to="/contact">
-                Contact
-              </Link>
-              <Link to="/cart">
+              <Link to="/contact">Contact</Link>
+              <Link className="active" to="/cart">
                 <FaShoppingCart />
               </Link>
             </li>
@@ -40,81 +35,6 @@ const About = () => {
         <h2>#let's-talk</h2>
 
         <p>Leave a message, We love to hear from you!</p>
-      </section>
-
-      <section id="contact-details" className="section-p1">
-        <div className="details">
-          <span>Get In Touch</span>
-          <h2>Visit one of our agencylocations or contact us today</h2>
-          <h3>Head Office</h3>
-          <div className="flexy">
-            <p>Address</p>
-            <p>Contact</p>
-            <p>Contact</p>
-            <p>Our Store</p>
-          </div>
-        </div>
-        <div className="map"></div>
-      </section>
-
-      <section className="form-detail">
-        <form action="">
-          <span>
-            LEAVE A MESSAGE
-            <h2>We love to hear from you</h2>
-            <input type="text" placeholder="Yourn Name" />
-            <input type="text" placeholder="Yourn e-mail" />
-            <input type="text" placeholder="Subject" />
-            <textarea
-              name=""
-              id=""
-              cols="30"
-              rows="10"
-              placeholder="Your message"></textarea>
-            <button className="normal">Submit</button>
-          </span>
-        </form>
-
-        <div className="people">
-          <div>
-            <img src={people1} alt="" />
-            <p>
-              <span>Robin Hood</span>Senior Marketing Manager <br />
-              phone: <br />
-              Email:
-            </p>
-          </div>
-          <div>
-            <img src={people2} alt="" />
-            <p>
-              <span>Little John</span>Senior Marketing Manager <br />
-              phone: <br />
-              Email:
-            </p>
-          </div>
-          <div>
-            <img src={people3} alt="" />
-            <p>
-              <span>Fra Tuck</span>Senior Marketing Manager <br />
-              phone: <br />
-              Email:
-            </p>
-          </div>
-        </div>
-      </section>
-
-      <section id="newsLetter" className="section-p1 section-m1">
-        <div className="newstext">
-          <h4>Signup For Newsletters</h4>
-          <p>
-            Get e-mail updates about our latest shop and{" "}
-            <span>special offers.</span>{" "}
-          </p>
-        </div>
-        <div className="form">
-          <input type="text" placeholder="Your email address" />
-          <button className="normal">Signup</button>
-        </div>
       </section>
 
       <footer className="section-p1">

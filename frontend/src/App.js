@@ -9,6 +9,8 @@ import {
   ProductPage,
   BlogPage,
   AboutPage,
+  ContactPage,
+  CartPage,
 } from "./Routes.js";
 
 const App = () => {
@@ -23,6 +25,8 @@ const App = () => {
           <Route path="/product" element={<ProductPage />} />
           <Route path="/blog" element={<BlogPage />} />
           <Route path="/about" element={<AboutPage />} />
+          <Route path="/contact" element={<ContactPage />} />
+          <Route path="/cart" element={<CartPage />} />
         </Routes>
       </BrowserRouter>
     </div>

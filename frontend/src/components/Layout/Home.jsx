@@ -46,8 +46,8 @@ const Home = () => {
               <Link to="/shop">Shop</Link>
               <Link to="/blog">Blog</Link>
               <Link to="/about">About</Link>
-              <Link to="../Layout/Contact.jsx">Contact</Link>
-              <Link to="../Layout/Cart.jsx">
+              <Link to="/contact">Contact</Link>
+              <Link to="/cart">
                 <FaShoppingCart />
               </Link>
             </li>
