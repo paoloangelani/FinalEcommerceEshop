@@ -97,8 +97,8 @@ const Home = () => {
           <div className="pro">
             <img src={pro1} alt="" />
             <div className="des">
-              <span>Adidas</span>
-              <h5>Astronaut T-shirt</h5>
+              <span>Zara</span>
+              <h5>Summer Collection</h5>
               <div className="cart">
                 <i>
                   <RxStar />
@@ -116,10 +116,10 @@ const Home = () => {
                   <RxStar />
                 </i>
               </div>
-              <h4>$78</h4>
+              <h4>$49</h4>
             </div>
             <div className="cartLogo">
-              <a href="#">
+              <a href=".">
                 <FaShoppingCart />
               </a>
             </div>
@@ -127,8 +127,8 @@ const Home = () => {
           <div className="pro">
             <img src={pro2} alt="" />
             <div className="des">
-              <span>Adidas</span>
-              <h5>Astronaut T-shirt</h5>
+              <span>Zara</span>
+              <h5>Summer Collection</h5>
               <div className="cart">
                 <i>
                   <RxStar />
@@ -146,10 +146,10 @@ const Home = () => {
                   <RxStar />
                 </i>
               </div>
-              <h4>$78</h4>
+              <h4>$49</h4>
             </div>
             <div className="cartLogo">
-              <a href="#">
+              <a href=".">
                 <FaShoppingCart />
               </a>
             </div>
@@ -157,8 +157,8 @@ const Home = () => {
           <div className="pro">
             <img src={pro3} alt="" />
             <div className="des">
-              <span>Adidas</span>
-              <h5>Astronaut T-shirt</h5>
+              <span>Zara</span>
+              <h5>Summer Collection</h5>
               <div className="cart">
                 <i>
                   <RxStar />
@@ -176,10 +176,10 @@ const Home = () => {
                   <RxStar />
                 </i>
               </div>
-              <h4>$78</h4>
+              <h4>$49</h4>
             </div>
             <div className="cartLogo">
-              <a href="#">
+              <a href=".">
                 <FaShoppingCart />
               </a>
             </div>
@@ -187,8 +187,8 @@ const Home = () => {
           <div className="pro">
             <img src={pro4} alt="" />
             <div className="des">
-              <span>Adidas</span>
-              <h5>Astronaut T-shirt</h5>
+              <span>Zara</span>
+              <h5>Summer Collection</h5>
               <div className="cart">
                 <i>
                   <RxStar />
@@ -206,10 +206,10 @@ const Home = () => {
                   <RxStar />
                 </i>
               </div>
-              <h4>$78</h4>
+              <h4>$49</h4>
             </div>
             <div className="cartLogo">
-              <a href="#">
+              <a href=".">
                 <FaShoppingCart />
               </a>
             </div>
@@ -217,8 +217,8 @@ const Home = () => {
           <div className="pro">
             <img src={pro5} alt="" />
             <div className="des">
-              <span>Adidas</span>
-              <h5>Astronaut T-shirt</h5>
+              <span>Zara</span>
+              <h5>Summer Collection</h5>
               <div className="cart">
                 <i>
                   <RxStar />
@@ -236,10 +236,10 @@ const Home = () => {
                   <RxStar />
                 </i>
               </div>
-              <h4>$78</h4>
+              <h4>$49</h4>
             </div>
             <div className="cartLogo">
-              <a href="#">
+              <a href=".">
                 <FaShoppingCart />
               </a>
             </div>
@@ -247,7 +247,7 @@ const Home = () => {
           <div className="pro">
             <img src={pro6} alt="" />
             <div className="des">
-              <span>Adidas</span>
+              <span>H&M</span>
               <h5>Astronaut T-shirt</h5>
               <div className="cart">
                 <i>
@@ -266,10 +266,10 @@ const Home = () => {
                   <RxStar />
                 </i>
               </div>
-              <h4>$78</h4>
+              <h4>$37</h4>
             </div>
             <div className="cartLogo">
-              <a href="#">
+              <a href=".">
                 <FaShoppingCart />
               </a>
             </div>
@@ -277,8 +277,8 @@ const Home = () => {
           <div className="pro">
             <img src={pro7} alt="" />
             <div className="des">
-              <span>Adidas</span>
-              <h5>Astronaut T-shirt</h5>
+              <span>Uniqlo</span>
+              <h5>Flower Pants</h5>
               <div className="cart">
                 <i>
                   <RxStar />
@@ -296,10 +296,10 @@ const Home = () => {
                   <RxStar />
                 </i>
               </div>
-              <h4>$78</h4>
+              <h4>$57</h4>
             </div>
             <div className="cartLogo">
-              <a href="#">
+              <a href=".">
                 <FaShoppingCart />
               </a>
             </div>
@@ -307,8 +307,8 @@ const Home = () => {
           <div className="pro">
             <img src={pro8} alt="" />
             <div className="des">
-              <span>Adidas</span>
-              <h5>Astronaut T-shirt</h5>
+              <span>Mango</span>
+              <h5>Korean Shirt</h5>
               <div className="cart">
                 <i>
                   <RxStar />
@@ -326,10 +326,10 @@ const Home = () => {
                   <RxStar />
                 </i>
               </div>
-              <h4>$78</h4>
+              <h4>$25</h4>
             </div>
             <div className="cartLogo">
-              <a href="#">
+              <a href=".">
                 <FaShoppingCart />
               </a>
             </div>
@@ -352,8 +352,8 @@ const Home = () => {
           <div className="pro">
             <img src={pro8} alt="" />
             <div className="des">
-              <span>Adidas</span>
-              <h5>Astronaut T-shirt</h5>
+              <span>Mango</span>
+              <h5>Korean Shirt</h5>
               <div className="cart">
                 <i>
                   <RxStar />
@@ -371,10 +371,10 @@ const Home = () => {
                   <RxStar />
                 </i>
               </div>
-              <h4>$78</h4>
+              <h4>$25</h4>
             </div>
             <div className="cartLogo">
-              <a href="#">
+              <a href=".">
                 <FaShoppingCart />
               </a>
             </div>
@@ -382,8 +382,8 @@ const Home = () => {
           <div className="pro">
             <img src={pro9} alt="" />
             <div className="des">
-              <span>Adidas</span>
-              <h5>Astronaut T-shirt</h5>
+              <span>Mango</span>
+              <h5>Classic Shirt</h5>
               <div className="cart">
                 <i>
                   <RxStar />
@@ -401,10 +401,10 @@ const Home = () => {
                   <RxStar />
                 </i>
               </div>
-              <h4>$78</h4>
+              <h4>$20</h4>
             </div>
             <div className="cartLogo">
-              <a href="#">
+              <a href=".">
                 <FaShoppingCart />
               </a>
             </div>
@@ -412,8 +412,8 @@ const Home = () => {
           <div className="pro">
             <img src={pro10} alt="" />
             <div className="des">
-              <span>Adidas</span>
-              <h5>Astronaut T-shirt</h5>
+              <span>Mango</span>
+              <h5>Korean Shirt</h5>
               <div className="cart">
                 <i>
                   <RxStar />
@@ -431,10 +431,10 @@ const Home = () => {
                   <RxStar />
                 </i>
               </div>
-              <h4>$78</h4>
+              <h4>$25</h4>
             </div>
             <div className="cartLogo">
-              <a href="#">
+              <a href=".">
                 <FaShoppingCart />
               </a>
             </div>
@@ -443,7 +443,7 @@ const Home = () => {
             <img src={pro11} alt="" />
             <div className="des">
               <span>Adidas</span>
-              <h5>Astronaut T-shirt</h5>
+              <h5>Camo T-shirt</h5>
               <div className="cart">
                 <i>
                   <RxStar />
@@ -461,10 +461,10 @@ const Home = () => {
                   <RxStar />
                 </i>
               </div>
-              <h4>$78</h4>
+              <h4>$20</h4>
             </div>
             <div className="cartLogo">
-              <a href="#">
+              <a href=".">
                 <FaShoppingCart />
               </a>
             </div>
@@ -472,8 +472,8 @@ const Home = () => {
           <div className="pro">
             <img src={pro12} alt="" />
             <div className="des">
-              <span>Adidas</span>
-              <h5>Astronaut T-shirt</h5>
+              <span>Mango</span>
+              <h5>Jeans Shirt</h5>
               <div className="cart">
                 <i>
                   <RxStar />
@@ -491,10 +491,10 @@ const Home = () => {
                   <RxStar />
                 </i>
               </div>
-              <h4>$78</h4>
+              <h4>$25</h4>
             </div>
             <div className="cartLogo">
-              <a href="#">
+              <a href=".">
                 <FaShoppingCart />
               </a>
             </div>
@@ -502,8 +502,8 @@ const Home = () => {
           <div className="pro">
             <img src={pro13} alt="" />
             <div className="des">
-              <span>Adidas</span>
-              <h5>Astronaut T-shirt</h5>
+              <span>Stradivarius</span>
+              <h5>Canapa Pants</h5>
               <div className="cart">
                 <i>
                   <RxStar />
@@ -521,10 +521,10 @@ const Home = () => {
                   <RxStar />
                 </i>
               </div>
-              <h4>$78</h4>
+              <h4>$38</h4>
             </div>
             <div className="cartLogo">
-              <a href="#">
+              <a href=".">
                 <FaShoppingCart />
               </a>
             </div>
@@ -532,8 +532,8 @@ const Home = () => {
           <div className="pro">
             <img src={pro14} alt="" />
             <div className="des">
-              <span>Adidas</span>
-              <h5>Astronaut T-shirt</h5>
+              <span>Urban</span>
+              <h5>Pelagus T-shirt</h5>
               <div className="cart">
                 <i>
                   <RxStar />
@@ -551,10 +551,10 @@ const Home = () => {
                   <RxStar />
                 </i>
               </div>
-              <h4>$78</h4>
+              <h4>$65</h4>
             </div>
             <div className="cartLogo">
-              <a href="#">
+              <a href=".">
                 <FaShoppingCart />
               </a>
             </div>
@@ -562,8 +562,8 @@ const Home = () => {
           <div className="pro">
             <img src={pro15} alt="" />
             <div className="des">
-              <span>Adidas</span>
-              <h5>Astronaut T-shirt</h5>
+              <span>Urban</span>
+              <h5>Black Shirt</h5>
               <div className="cart">
                 <i>
                   <RxStar />
@@ -581,10 +581,10 @@ const Home = () => {
                   <RxStar />
                 </i>
               </div>
-              <h4>$78</h4>
+              <h4>$25</h4>
             </div>
             <div className="cartLogo">
-              <a href="#">
+              <a href=".">
                 <FaShoppingCart />
               </a>
             </div>
